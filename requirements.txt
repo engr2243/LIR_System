@@ -1,0 +1,17 @@
+docx==0.2.4
+docx2txt==0.8
+nltk==3.7
+pandas==1.5.0
+pdfminer==20191125
+pdfminer.six==20220524
+pdfplumber==0.7.4
+Pillow==9.2.0
+PyMuPDF==1.20.2
+PyPDF2==2.11.0
+python_docx==0.8.11
+aspose-words==22.10.0
+pytesseract==0.3.10
+spacy==3.4.1
+text2num==2.4.0
+tqdm
+https://github.com/explosion/spacy-models/releases/download/es_core_news_lg-3.4.0/es_core_news_lg-3.4.0.tar.gz
