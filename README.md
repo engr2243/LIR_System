@@ -2,12 +2,14 @@
 An information retrieval system which takes court sentence files in pdf/doc 
 format as input and returns the extracted info as .json in the files directory.
 The information retrieved contains;
+
 - Ponentes: Judge Name
 - Identificador: Sentence ID
 - Radicado: Filing Number
 - fechaVigencia: Effective date
 - Salas: Rooms
 - Secciones: Sections
+
 The algorithm tries to extract the most of the results but may miss some
 information in some cases due to multiple reasons such as broken
 input files(Old formats), entities with with no proper patterns etc. 
