@@ -146,6 +146,7 @@ class Extract:
         doc = fitz.open(file_path)
         n = doc.page_count-1
         file_name = file_path.split('\\')[-1]
+        os.makedirs("temp\\", exist_ok=True)
         temp_path = 'temp\\{fn}'.format(fn=file_name)
         pages = [0,1,2,n]
             
